@@ -1,6 +1,6 @@
 package com.example.sustainafridge.classes
 
-class item {
+class Item {
     enum class Remaining {
         FULL,
         SEVENTYFIVE,
