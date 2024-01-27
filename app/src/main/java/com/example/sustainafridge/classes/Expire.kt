@@ -9,7 +9,8 @@ class Expire {
         "carrots" to 14, "celery" to 10, "parsnip" to 14, "cucumber" to 5, "eggplant" to 5, "kale" to 4, "spinach" to 5,
         "zucchini" to 7, "peach" to 4, "nectarine" to 4, "plum" to 4, "pear" to 4, "mango" to 7, "cherries" to 4,
         "shredded cheese" to 21, "sliced cheese" to 21, "yogurt" to 10, "cream cheese" to 14, "apple" to 14, "bok choy" to 3, "mushrooms" to 5,
-        "onions" to 30, "tomato" to 7, "lettuce" to 7, "sour cream" to 14, "heavy whipping cream" to 21)
+        "onions" to 30, "tomato" to 7, "lettuce" to 7, "sour cream" to 14, "heavy whipping cream" to 21, "green beans" to 7,
+        "avocado" to 7,"peas" to 8, "jalapenos" to 7, "corn" to 5, "honeydew melon" to 10)
 
     // checks if given key is found in the map
     // otherwise we can have the user input an expiration date?
