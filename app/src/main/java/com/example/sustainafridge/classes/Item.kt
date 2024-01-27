@@ -1,5 +1,7 @@
 package com.example.sustainafridge.classes
-
+import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import com.example.sustainafridge.databinding.ActivityMainBinding
 
 enum class Remaining {
     FULL,
@@ -8,7 +10,7 @@ enum class Remaining {
     TWENTYFIVE,
     EMPTY
 }
-class Item(val name: String) {
+class Item(var name: String) {
     var portion: Remaining = Remaining.FULL
         private set
 

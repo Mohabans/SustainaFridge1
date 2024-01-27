@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/portion_options_group">
+        <item
+            android:id="@+id/option_full"
+            android:title="Full"/>
+        <item
+            android:id="@+id/option_seventyfive"
+            android:title="Mostly Full"/>
+        <item
+            android:id="@+id/option_fifty"
+            android:title="Halfway Done"/>
+        <item
+            android:id="@+id/option_twentyfive"
+            android:title="Almost Done"/>
+        <item
+            android:id="@+id/option_empty"
+            android:title="Empty"/>
+    </group>
+</menu>
+
