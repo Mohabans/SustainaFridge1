@@ -1,7 +1,7 @@
 package com.example.sustainafridge.classes
 
 class item {
-    enum class remaining {
+    enum class Remaining {
         FULL,
         SEVENTYFIVE,
         FIFTY,
@@ -9,7 +9,7 @@ class item {
         EMPTY
     }
     private var name : String = ""
-    private var portion : remaining = remaining.FULL
+    private var portion : Remaining = Remaining.FULL
     private var owner : String = ""
 
 }
