@@ -1,15 +1,34 @@
 package com.example.sustainafridge.classes
 
-class Item {
-    enum class Remaining {
-        FULL,
-        SEVENTYFIVE,
-        FIFTY,
-        TWENTYFIVE,
-        EMPTY
+
+enum class Remaining {
+    FULL,
+    SEVENTYFIVE,
+    FIFTY,
+    TWENTYFIVE,
+    EMPTY
+}
+class Item(val name: String) {
+    var portion: Remaining = Remaining.FULL
+        private set
+
+    var owner: String = ""
+        private set
+
+    fun useItem(usedPortion: Remaining) {
+        portion = usedPortion
     }
-    private var name : String = ""
-    private var portion : Remaining = Remaining.FULL
-    private var owner : String = ""
+
+    fun assignOwnership(newOwner: String) {
+        owner = newOwner
+    }
+
+}
+
+fun main() {
+    val milk = Item("Milk")
+
+
+    milk.assignOwnership("Noah")
 
 }
