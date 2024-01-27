@@ -9,17 +9,17 @@
         android:id="@+id/navigation_camera"
         android:name="com.example.sustainafridge.ui.home.HomeFragment"
         android:label="@string/title_camera"
-        tools:layout="@layout/fragment_cam" />
+        tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_fridges"
         android:name="com.example.sustainafridge.ui.dashboard.DashboardFragment"
         android:label="@string/title_fridges"
-        tools:layout="@layout/fragment_fridges" />
+        tools:layout="@layout/fragment_dashboard" />
 
     <fragment
         android:id="@+id/navigation_inventory"
         android:name="com.example.sustainafridge.ui.notifications.NotificationsFragment"
         android:label="@string/title_inventory"
-        tools:layout="@layout/fragment_inventory" />
+        tools:layout="@layout/fragment_notifications" />
 </navigation>
